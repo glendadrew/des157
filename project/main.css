@@ -1,0 +1,123 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: darkslategray;
+    font-size: 11px;
+}
+
+header#mySketch {
+    width: 800px;
+    height: 250px;
+    margin: 24px auto 0px auto;
+    border:1px #ddd solid;
+}
+
+header#name{
+	width: 800px;
+	margin: 24px auto -72px auto;
+}
+
+header h1 {
+	font-size:80px;
+	font-family: 'Cabin Sketch', arial, serif;
+	letter-spacing:-.18em;
+}
+header h1 .red {
+	color:rgba(173,13,63,.7);
+}
+header h1 .purple {
+	color:rgba(130,13,173,.7);
+	position:relative;
+	bottom:3px;
+}
+header h1 .blue {
+	color:rgba(62,13,173,.7);
+	position:relative;
+	top:4px;
+}
+header h1 .blue2 {
+	color:rgba(13,43,173,.7);
+}
+header h1 .blue3 {
+	color:rgba(13,137,173,.7);
+	position:relative;
+	bottom:3px;
+}
+header h1 .green {
+	color:rgba(13,173,160,.7);
+	position:relative;
+	top:4px;
+}
+section {
+    border:5px;
+}
+section#content {
+    width: 800px;
+    margin: 1in auto 0px auto;
+}
+
+section#content h3 {
+	font-size:14px;
+    color: #333;
+    padding-bottom: 11px;
+}
+
+section#content nav {
+    float: right;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section#content nav li {
+    margin-left: 24px;
+}
+
+section#content nav li a {
+	font-size:14px;
+	line-height:24px;
+    display: inline-block;
+    padding: 5px;
+    color:magenta;
+}
+
+section#content nav ol li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+section#content nav ul li a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: .5in;
+    text-align: center;
+    background: linear-gradient(to bottom right, yellow, greenyellow);
+    /* Standard syntax */
+}
+
+footer a {
+    position: relative;
+    top: 10px;
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+footer a:hover {
+    border-bottom: 1px solid darkslategray;
+}
