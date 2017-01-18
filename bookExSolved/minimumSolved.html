@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>Find the minimum number solved</title>
+</head>
+
+<body>
+    <h1>book exercise chapter 3 - find the minimum number </h1>
+    <h2>open the console to see the results of the script</h2>
+    <script>
+        // write a function that takes two numbers and returns the minimum
+        function findMin(num1, num2) {
+            if (num1 < num2) {
+                return (num1);
+            } else {
+                return (num2);
+            }
+        }
+        // declare a variable that calls the function above with two parameters
+        var myNum = findMin(5500, 800);
+
+        // write the result of the function to the console with a concatenated message
+        console.log("myNum is: " + myNum);
+    </script>
+</body>
